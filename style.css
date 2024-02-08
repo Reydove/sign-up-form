@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'NorseBold';
+  src: local('Norse Bold'), url('path/to/Norse-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*body {
+  font-family: 'NorseBold', sans-serif;
+}*/
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  width: 100vw; 
+  height: 100vh;
+}
+
+.left {
+  /*background-image: url('/images/photo-1585202900225-6d3ac20a6962.jpg');
+  background-size: cover; /* Adjust this based on your needs */
+ /* width: 35vw; */
+ background-image: url(./images/95081915.jpg);
+ width: 35vw;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+}
+
+
+
+.right{
+  display: flex;
+  justify-content: center;
+  width: 50vw; 
+}
