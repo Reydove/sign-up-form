@@ -35,6 +35,18 @@ body{
 
 .right{
   display: flex;
-  justify-content: center;
+  justify-content: last baseline;
   width: 50vw; 
+  flex-direction: column;
 }
+.first{
+  height: 40vh
+}
+.second{
+  height: 40vh
+}
+.third{
+  height: 40vh;
+}
+
+ 
