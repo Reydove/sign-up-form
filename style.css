@@ -35,18 +35,30 @@ body{
 
 .right{
   display: flex;
-  justify-content: last baseline;
   width: 50vw; 
   flex-direction: column;
+  background-color:antiquewhite;
+  width: 65vw;
+
 }
 .first{
-  height: 40vh
+  height: 40vh;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+
 }
 .second{
-  height: 40vh
+  height: 40vh;
+  background: white:
 }
 .third{
   height: 40vh;
 }
-
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+}
  
