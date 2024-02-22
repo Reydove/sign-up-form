@@ -57,11 +57,13 @@ body{
 
 }
 .second{
-  height: 40vh;
+  height: 50vh;
   background: white;
 }
 .third{
-  height: 40vh;
+  height: 200vh;
+  margin-left: 50px;
+  margin-top:25px;
 }
 .form-main-div{
     display: flex;
@@ -77,16 +79,16 @@ body{
   justify-content: left;
    
  }
- /*.form.divs{
+ .form.divs{
   display: flex;
   justify-content:space-evenly;
  }
-*/
+
  input{
-  width: 200px;
+  width: 180px;
   border-color: 1px solid #E5E7EB;
   height: 25px;
-  border-radius: 3px;
+  border-radius: 5px;
 
  }
  input:focus{
@@ -102,4 +104,25 @@ body{
 
 #password:invalid {
   border: 1px solid red;
+}
+
+#error{
+  color: red;
+  font-size: 10px;
+  margin: 1px;
+}
+.btn-green{
+  background-color: #596d48;
+  color:white;
+  margin-left: 50px;
+  border: 1px solid #596d48;
+  border-radius: 10px;
+  height: 35px;
+  width: 175px;
+  font-weight: bold;
+
+}
+.hyperlink{
+ margin-left: 50px;
+ margin-top: 25px; 
 }

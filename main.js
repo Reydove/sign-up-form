@@ -1,5 +1,4 @@
-/*document.addEventListener("DOMContentLoaded", function(){
-    console.log("hi")
+document.addEventListener("DOMContentLoaded", function(){
 
      let password = document.querySelector("#password").value;
      let confirmPassword = document.querySelector("#confirmPassword").value;
@@ -12,12 +11,12 @@
      }
     else if password == confirmPassword{
         error.innerHTML = "";
-     }
+    }
 
 
-})*/
+})
 
-document.addEventListener("DOMContentLoaded", function(){
+/*document.addEventListener("DOMContentLoaded", function(){
     console.log("hi");
 
     let password = document.querySelector("#password");
@@ -42,3 +41,4 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     });
 });
+*/
