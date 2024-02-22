@@ -31,6 +31,13 @@ body{
   background-size: cover; /* Adjust this based on your needs */
  /* width: 35vw; */
  background-image: url(./images/95081915.jpg);
+  /*background-image: url('https://source.unsplash.com/25xggax4bSA');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35vw;
+  color: white;
+}
+
  width: 35vw;
  background-repeat: no-repeat;
  background-size: cover;
@@ -59,6 +66,7 @@ body{
 .second{
   height: 50vh;
   background: white;
+  box-shadow: 2px 5px #E5E7EB;
 }
 .third{
   height: 200vh;
@@ -120,9 +128,16 @@ body{
   height: 35px;
   width: 175px;
   font-weight: bold;
+  box-shadow: 2px 5px #E5E7EB;
+
 
 }
 .hyperlink{
  margin-left: 50px;
  margin-top: 25px; 
+}
+.log in{
+  color: #596d48;
+  text-decoration: none;
+  font-weight: bold;
 }
